@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mais seletores</title>
+    <style>
+        article p{
+    padding: 12px;
+    background-color: lightgray;
+}
+    #principal p.promocao {
+        padding: 12px;
+        background-color: aliceblue;
+    }
+    p.coordenadores {
+        text-align:center;
+    }
+    article  p {
+        border: 1px solid black;
+    }
+    p.coordenadores{
+        font-weight: bold;
+    }
+    
+    </style>
+</head>
+<body>
+    <main id="principal">
+    <h1 id="titulo">Portal de Cursos</h1>
+    <p id="descricao">Temos cursos nas mais diversas área</p>
+    
+    <p class="nova promocao">Venha conversar conosco e conhecer nossas ofertas de 
+    <strong>Bolsas de estudos</strong></p>
+        
+    <p>Curso:</p>
+    <article>
+    <p class="novo-curso">Ciência da computação</p>
+    <p class="curso">Engenharia da computação</p>
+    <p class="curso">Farmácia</p>
+    <section>
+    <p class="coordenadores">
+    Saiba que nossos coordenadores estão à sua disposição!</p>
+    </section>
+</article>
+    <p id="contato" class="final-pagina">Entre em contato 11223344</p>
+    <p id="rodape" class="final-pagina">&copy; todos os direitos reservados.</p>
+    
+</body>
+</html>
